@@ -190,7 +190,7 @@
           (function() {
             var mymarker = marker;
             var $myresult = $result;
-            $myresult.find('a').click(function(){
+            $myresult.find('a:first').click(function(){
               infowindow.close();
               $myresult.siblings().css('background-color', 'white');
               $myresult.css('background-color', '#fbb');
